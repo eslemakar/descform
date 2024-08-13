@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: #131034;
+    font-family: "Titillium Web", sans-serif;
+}
+.signup-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background:url(9e1de6194743ca6146dd29516d2bc66a.jpg) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    
+}
+.signup-form h1{
+    margin-top: 100px;
+    color: palevioletred;
+    font-size: 40px;
+   
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    color: palevioletred;
+    
+}
+.txt{
+    margin: 20px 0;
+    border-radius: 50px;
+    background: rgb(213, 99, 143);
+    
+}
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: rgb(75, 116, 117);
+    border-radius: 50px;
+    cursor: pointer;
+}
